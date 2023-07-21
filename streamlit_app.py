@@ -47,4 +47,4 @@ streamlit.text("The fruit load list contains:")
 streamlit.text(my_data_row)
 
 add_my_fruit = streamlit.text_input('What fruit would you like add?','jackfruit')
-streamlit.write('Thanks for adding', fruit_choice)
+streamlit.write('Thanks for adding', add_my_fruit)
